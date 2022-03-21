@@ -2,30 +2,170 @@
 <html>
 
 <head>
-    <title>Antonio Santos Portfolio</title>
-    <link rel="icon" href="./images/icon.png">
-    <link href="./css/portfolio.css" rel="stylesheet">
+  <title>Antonio Santos</title>
+  <link rel="icon" href="./images/icon.png">
+  <link href="./css/portfolio.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/801c93b23f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div id="home">
-        <h1 id="name">A N T O N I O<br>S A N T O S</h1>
-        <br>
-        <br>
-        <div id="links">
-            <button class="buttons" onclick="window.location.href='./experience.html'">💻 Experience</button>
-            <button class="buttons" onclick="window.location.href='./hobbies.html'">🧁 Hobbies</button>
-            <button class="buttons" onclick="window.location.href='./about.html'">📝 About</button>
-            <button class="buttons" onclick="window.location.href='./app.html'">👩‍💻 WebApp</button>
-        </div>
-        <br>
-        <br>
-        <p id="intro">
-            Hello! I am Antonio Santos (but you can just call me Anton). Welcome to my portfolio! Click the buttons
-            above to explore the different pages like my experiences and hobbies. One of these buttons lead to a Web
-            App. This Web App is used to calculate statistics of texts put in the input box. These statistics include
-            information like number of characters, number of words and more.
+  <div class="topnav">
+    <a href="#about-section">Antonio Santos</a>
+    <div>
+      <a href="#experience-section">EXPERIENCE</a>
+      <a href="#project-section">PROJECTS</a>
+      <a class="topnav-resume resume-button" href='./Antonio_Santos_Resume.pdf' target="_blank">RESUME</a>
+
     </div>
+    <hr>
+  </div>
+  <div class="content">
+    <div class="about" id="about-section">
+      <img src="./images/me.jpg">
+      <div id="meSection">
+        <h1> Hey there!</h1>
+        <p>
+          Nice to meet you! I am Antonio Santos, but you can just call me Anton. I'm a Software Engineering Student at the University of
+          Calgary, in Canada. I
+          am a few months away
+          from graduating and finally getting my iron ring and I could not be more excited! It's my dream to live and work in New York City. I have always wanted to live in a big city and when I visited New York in the Summer of 2021,
+          I
+          just knew that's where I wanted to be. I love to travel, bake, learn about fashion and, of course, code!
+        </p>
+        <div class="contacts">
+          <i class="fa-regular fa-envelope contact-icon"></i>
+          <a href="mailto:anton.jaime15@gmail.com">anton.jaime15@gmail.com</a>  
+          <i class="fa-brands fa-github contact-icon"></i>
+          <a href="https://github.com/antondotio" target="_blank">antondotio</a>  
+          <i class="fa-brands fa-linkedin-in contact-icon"></i>
+          <a href="https://www.linkedin.com/in/antoniosantos15/" target="_blank">antoniosantos15</a>
+        </div>
+        <a class="resume-button" href='./Antonio_Santos_Resume.pdf' target="_blank">RESUME</a>
+      </div>
+    </div>
+    <div class="experience" id="experience-section">
+      <h1 class="title">EXPERIENCE</h1>
+      <h2>Education</h2>
+      <h3>University of Calgary,<br>Schulich School of Engineering</h3>
+        <div class="items">
+          <img class="pic" src="./images/UofCCoat.png">
+          <p>
+            <b>BSc in Software Engineering<br>
+            Calgary,Alberta,Canada<br>
+            September 2017 - June 2022</b><br><br>
+            I am currently a 4th year student at the University of Calgary. I major in Software Engineering at
+            the Sculich Schoool of Engineering. I first discovered my interest in programming during my first
+            year of university. In the first year of engineering, every student must take an intro class for
+            every engineering specialization, and when I took the intro programming class, I instantly fell in
+            love with it and knew it was what I wanted to do.
+          </p>
+        </div>
+      <h2>Work Experience</h2>
+      <h3>Backend Software Developer Intern</h3>
+      <div class="items">
+        <img class="pic" src="./images/chata.png">
+        <div class="info">
+        <p><b>Calgary,Alberta,Canada<br>
+                September 2017 - June 2022</b><br><br>
+            For my internship term, I was lucky enough to get an position as a Back End Software Developer
+            intern at Chata. Chata is a start up company based in Calgary and they work with Natural
+            Language Processing and Artificial Intelligence. I worked at Chata for 16 months and a lot of my
+            responsibilities included the following:
+        </p>
+        <ul>
+          <li>Designed and implemented high quality, high performance and scalable microservices and APIs
+          </li>
+          <li>Efficiently collaborated with Front-end developers to integrate user-facing elements with
+              server-side logic.</li>
+          <li>Designed and implemented unit tests to ensure high code quality.</li>
+          <li>Participated in the entire application lifecycle, from design to deployment, with focus on
+              implementation, testing
+              and troubleshooting.</li>
+          <li>Designed and implemented a robust data architecture for various backend systems.</li>
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div class="projects" id="project-section">
+      <h1 class="title">PROJECTS</h1>
+      <h3>WestJet Capstone Project</h3>
+        <p>
+        For my Software Engineering Capstone Project, my friends and I were able to partner with WestJet to
+        create a flight recommendation system for their website. There are three fundamental components to this
+        project, the Recommendation Engine for recommending the flights, the Tracking Engine to track the
+        customer's past flights and the Vue component to display the information. This is currently a work in
+        progress.
+        <br>The languages and frameworks we used for this project are as listed:
+          <ul>
+            <li>JavaScript</li>
+            <li>Vue</li>
+            <li>Axios</li>
+            <li>Hapi</li>
+          </ul>
+        </p>
+      <h3>peachAt</h3>
+        <p>
+        Stoked 
+          <ul>
+            <li>Javascript</li>
+            <li>React</li>
+            <li>Express</li>
+          </ul>
+        </p>
+      <img class="projectPic" src="./images/peachAt.png">
+      <h3>Virtual Realty</h3>
+        <p>
+        Virtual Realty is the latest school project that I worked on. My group and I made it for our CPSC 481 -
+        Human Computer Interactions class. It is a real estate browsing application that mainly focuses on
+        design and user experience. This project included a multitude of features including Favorite Listings,
+        Saved Searches, Map Searching, and other ways of filtering the results.
+        <br>The languages and frameworks we used for this project are as listed:
+          <ul>
+            <li>C#</li>
+            <li>WPF</li>
+          </ul>
+        </p>
+      <img class="projectPic" src="./images/virtualRealty.jpg">
+      <h3>UniversiTea</h3>
+        <p>
+        UniversiTea is a project a group of students and I made for our SENG 401 - Software Architecture.
+        UniversiTea is a forum website similar to websites like Reddit where students can sign up and post
+        content on a
+        forum page of their or other universities. This project focused on applying several archtitectural
+        patterns
+        <br>The architectural patterns we used for this project are as listed:
+          <ul>
+            <li>MVC</li>
+            <li>Microservices</li>
+            <li>Event Sourcing and CQRS</li>
+            <li>Database-per-service</li>
+          </ul>
+        The languages and frameworks we used for this project are as listed:
+          <ul>
+            <li>Vue</li>
+            <li>JavaScript</li>
+            <li>Axios</li>
+            <li>MySQL</li>
+          </ul>
+        </p>
+      <img class="projectPic" src="./images/universitea.png">
+      <h3>Stoked Clothing</h3>
+        <p>
+        Stoked Clothing is an inventory management system that simulates an online clothing shop. Users are
+        given
+        functionalities
+        such as
+        login/signup, viewing item pages, adding items to cart, and purchasing items. This app was made for our
+        CPSC 471 – Database Management Systems with the main focus being on the database of the project
+        The languages and frameworks we used for this project are as listed:
+          <ul>
+            <li>React</li>
+            <li>Flask</li>
+            <li>MySQL</li>
+          </ul>
+        </p>
+    </div>
+  </div>
 </body>
 
 </html>
