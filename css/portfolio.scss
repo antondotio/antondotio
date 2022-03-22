@@ -56,7 +56,7 @@ hr {
   background-color: #3b5249;
   width: 100%;
   position: sticky;
-  font-size: 18px;
+  font-size: 17px;
   letter-spacing: 3px;
   top: 0;
   font-family: 'Montserrat', sans-serif;
@@ -130,6 +130,7 @@ hr {
 .header-container p {
   text-align: right;
   margin: 0;
+  font-size: 14px;
 }
 
 .header-container h3 {
@@ -228,7 +229,7 @@ hr {
   font-weight: normal;
   width: auto;
   background-color: #16352a;
-  font-size: 18px;
+  font-size: 17px;
   max-width: 100%;
 }
 
@@ -300,8 +301,12 @@ hr {
 
   .about img {
     margin-right: 0;
-    max-width: 100%;
+    max-width: 90%;
+    max-height: 80%;
     margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .title {
