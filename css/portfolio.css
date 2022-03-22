@@ -185,23 +185,17 @@ hr {
           flex-direction: column;
 }
 
-.buttons {
-  padding: 3px 10px;
-  font-size: 18px;
-  border-radius: 3px;
-  border: 1px solid #e1e4e8;
-  -webkit-transition-duration: 0.4s;
-          transition-duration: 0.4s;
-  margin: 5px;
-}
-
 .pic {
   padding-right: 10px;
   max-width: 10%;
 }
 
 .projectPic {
-  max-width: 100%;
+  max-width: 95%;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about {
@@ -272,6 +266,7 @@ hr {
   line-height: 0.04167em;
   vertical-align: -0.125em;
   margin-right: 5px;
+  color: #34252f;
 }
 
 .resume-button {
@@ -306,9 +301,45 @@ hr {
 }
 
 .projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 0px 100px 100px 100px;
   background-color: snow;
   border-radius: 20px;
   margin-top: 40px;
+}
+
+.projects h3 {
+  margin: 10px 0px 10px 0px;
+}
+
+.project-container-odd {
+  margin-top: 25px;
+  padding: 35px;
+  max-width: 65%;
+  background-color: #a4b494;
+  border-radius: 15px;
+  color: white;
+}
+
+.project-container-even {
+  margin-top: 25px;
+  padding: 35px;
+  max-width: 65%;
+  background-color: #a4b494;
+  border-radius: 15px;
+  color: white;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.projects i {
+  font-size: 1em;
+  color: white;
 }
 /*# sourceMappingURL=portfolio.css.map */
