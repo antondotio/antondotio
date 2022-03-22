@@ -191,7 +191,7 @@ hr {
 }
 
 .projectPic {
-  max-width: 95%;
+  max-width: 90%;
   border-radius: 5px;
   display: block;
   margin-left: auto;
@@ -319,23 +319,27 @@ hr {
 }
 
 .project-container-odd {
-  margin-top: 25px;
+  margin-top: 30px;
   padding: 35px;
-  max-width: 65%;
+  max-width: 60%;
   background-color: #a4b494;
   border-radius: 15px;
   color: white;
+  -webkit-box-shadow: 10px 10px #8888884f;
+          box-shadow: 10px 10px #8888884f;
 }
 
 .project-container-even {
-  margin-top: 25px;
+  margin-top: 30px;
   padding: 35px;
-  max-width: 65%;
+  max-width: 60%;
   background-color: #a4b494;
   border-radius: 15px;
   color: white;
   -ms-flex-item-align: end;
       align-self: flex-end;
+  -webkit-box-shadow: 10px 10px #8888884f;
+          box-shadow: 10px 10px #8888884f;
 }
 
 .projects i {
