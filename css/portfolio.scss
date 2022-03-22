@@ -29,7 +29,7 @@ h3 {
 }
 
 h4 {
-  font-size: 17px;
+  font-size: 20px;
   padding-bottom: 0;
   margin-top: 0;
 }
@@ -277,6 +277,23 @@ hr {
 }
 
 @media (max-width: 1300px) {
+  .content {
+    width: 90vw;
+    max-width: 90%;
+  }
+
+  .experience {
+    padding: 0px 65px 65px 65px;
+  }
+
+  .projects {
+    padding: 0px 65px 65px 65px;
+  }
+
+  .about {
+    padding: 65px;
+  }
+
   .about {
     flex-direction: column;
   }
@@ -284,10 +301,11 @@ hr {
   .about img {
     margin-right: 0;
     max-width: 100%;
+    margin-bottom: 30px;
   }
 
   .title {
-    letter-spacing: 0.5em;
+    letter-spacing: 0.7em;
   }
 
   .project-container-odd {
@@ -296,5 +314,9 @@ hr {
 
   .project-container-even {
     max-width: 70%;
+  }
+
+  .pic {
+    max-width: 20%;
   }
 }
