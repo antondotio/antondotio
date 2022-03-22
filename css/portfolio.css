@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Poppins:wght@100;200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=PT+Sans:wght@400;700&family=Poppins:wght@100;200;300;400&display=swap");
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -69,9 +69,11 @@ hr {
   width: 100%;
   position: -webkit-sticky;
   position: sticky;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 3px;
   top: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
 
 .topnav a {
@@ -146,7 +148,7 @@ hr {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 25px;
+  padding: 35px;
   background-color: #a4b494;
   border-radius: 15px;
   color: white;
@@ -293,7 +295,8 @@ hr {
   font-weight: normal;
   width: auto;
   background-color: #16352a;
-  font-size: 20px;
+  font-size: 18px;
+  max-width: 100%;
 }
 
 .resume-button:hover {
