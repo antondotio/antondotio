@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=PT+Sans:wght@400;700&family=Poppins:wght@100;200;300;400&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -61,6 +65,7 @@ hr {
   top: 0;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+  z-index: 1000;
 }
 
 .topnav a {
@@ -245,6 +250,7 @@ hr {
   background-color: snow;
   border-radius: 20px;
   margin-top: 40px;
+  z-index: 500;
 }
 
 .projects h3 {
@@ -324,4 +330,26 @@ hr {
   .pic {
     max-width: 20%;
   }
+}
+
+.slide-in {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.exp-container.slide-in {
+  transform: translateY(100%) scale(0.95);
+}
+
+.project-container-odd.slide-in {
+  transform: translateX(150%) scale(0.95);
+}
+
+.project-container-even.slide-in {
+  transform: translateX(-50%) scale(0.95);
+}
+
+.slide-in.active {
+  opacity: 1;
+  transform: translateX(0%) translateY(0%) scale(1);
 }
