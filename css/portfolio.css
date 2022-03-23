@@ -383,11 +383,13 @@ hr {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .about img {
     margin-right: 0;
-    max-width: 90%;
-    max-height: 80%;
+    min-width: 100%;
     margin-bottom: 30px;
     display: block;
     margin-left: auto;
