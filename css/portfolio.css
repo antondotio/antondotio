@@ -94,7 +94,27 @@ hr {
   text-decoration: none;
 }
 
+@-webkit-keyframes fade-in-nav {
+  from {
+    background-color: #365344;
+  }
+  to {
+    background-color: #519872;
+  }
+}
+
+@keyframes fade-in-nav {
+  from {
+    background-color: #365344;
+  }
+  to {
+    background-color: #519872;
+  }
+}
+
 .topnav a:hover {
+  -webkit-animation: 'fade-in-nav' 0.3s ease 0s 1;
+          animation: 'fade-in-nav' 0.3s ease 0s 1;
   background-color: #519872;
   color: black;
 }
@@ -148,6 +168,7 @@ hr {
       -ms-flex-pack: center;
           justify-content: center;
   padding-bottom: 35px;
+  overflow-x: hidden;
 }
 
 .exp-container {
@@ -311,6 +332,8 @@ hr {
 }
 
 .resume-button:hover {
+  -webkit-animation: 'fade-in-nav' 0.2s ease 0s 1;
+          animation: 'fade-in-nav' 0.2s ease 0s 1;
   background-color: #4ac081;
   color: black;
 }
@@ -332,6 +355,30 @@ hr {
 
 .projects h3 {
   margin: 10px 0px 10px 0px;
+}
+
+@-webkit-keyframes fade-in-icon {
+  from {
+    color: #7a968c;
+  }
+  to {
+    color: #3b5249;
+  }
+}
+
+@keyframes fade-in-icon {
+  from {
+    color: #7a968c;
+  }
+  to {
+    color: #3b5249;
+  }
+}
+
+.projects i:hover {
+  -webkit-animation: 'fade-in-icon' 0.6s ease 0s 1;
+          animation: 'fade-in-icon' 0.6s ease 0s 1;
+  color: #3b5249;
 }
 
 .project-container-odd {
